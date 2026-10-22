@@ -1,0 +1,17 @@
+title: 技术博客
+description: 技术问题、工程实践与研究思考
+lang: zh-CN
+timezone: Asia/Shanghai
+url: "https://986882799-gif.github.io"
+baseurl: ""
+theme: minima
+markdown: kramdown
+permalink: /posts/:title/
+kramdown:
+  math_engine: mathjax
+exclude:
+  - scripts/
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
